@@ -6,8 +6,15 @@
 
 #title {
   font-size: 4em;
-  color: #B89041;
+  color: ##AEBCC2;
   font-family: 'Georgia';
   font-weight: bold;
-  
+}
+
+.halfrow {
+  background-color: ##51BAB3
+  color: white;
+  margin: 40px;
+  padding: 20px;
+  text-align: center;
 }
