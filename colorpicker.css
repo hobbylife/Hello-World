@@ -18,3 +18,28 @@
   padding: 20px;
   text-align: center;
 }
+
+.color {
+  height: 25vh;
+  border: 1px dashed black;
+}
+
+#color1 {
+  background-color: #A23E78
+}
+
+#color2 {
+  background-color: #51BAB3
+}
+
+#color3 {
+  background-color: #1D2227
+}
+
+#color4 {
+  background-color: #AEBCC2
+}
+
+#color5 {
+  background-color: #5A7475
+}
