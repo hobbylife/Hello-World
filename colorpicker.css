@@ -42,3 +42,10 @@
 #color5 {
   background-color: #5A7475
 }
+
+#pickacolor {
+  height: 60vh;
+  width: 100%;
+  padding-top: 30vh;
+  text-align: center;
+}
