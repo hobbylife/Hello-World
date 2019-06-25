@@ -21,7 +21,6 @@
 
 .color {
   height: 25vh;
-  border: 1px dashed black;
 }
 
 #color1 {
@@ -43,4 +42,3 @@
 #color5 {
   background-color: #5A7475
 }
- 
