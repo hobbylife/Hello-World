@@ -3,3 +3,10 @@
   height: 90vh;
   object-fit: cover;
 }
+
+#title {
+  font-size: 4em;
+  color: #B89041;
+  font-family: 'Georgia';
+  font-weight: bold;
+}
