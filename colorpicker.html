@@ -3,13 +3,26 @@
 <head>
   <title>INSTRUCTIONS</title>
   <meta charset="utf-8">
-  <meta name="viewpoint" content="width=device-width, initial-scale=1">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1"/>
 
   <!-- Our style sheet where we can customize parts of our page further -->
-  <link rel="stylesheet" type="text/css" href="colorpicker.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="colorpicker.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"/></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"/></script>
+
+  <script>
+    function randomColor() {
+      var red = Math.floor(Math.random() * 256);
+      var green = Math.floor(Math.random() * 256);
+      var blue = Math.floor(Math.random() * 256);
+
+      var divtoedit = document.getElementById('pickacolor')
+      divtoedit.style.backgroundColor = 'rgb('+red+','+green+','+blue+')';
+
+      document.getElementById('colorGenerated').innerHTML = 'rgb('+red+','+green+','+blue+')';
+    }
+  </script>
 </head>
 
 <body>
@@ -56,7 +69,7 @@
     </div>
     <div class="row">
       <div class="col-sm-12" id="pickacolor">
-        <button class="" onclick=randomColor()>
+        <button class="btn btn-default" onclick=randomColor()>
           Get Random Color
         </button>
         <br/><br/>
