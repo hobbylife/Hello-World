@@ -6,7 +6,14 @@
 
 #title {
   font-size: 4em;
-  color: ##AEBCC2;
+  color: #AEBCC2;
+  font-family: 'Arial';
+  font-weight: bold;
+}
+
+#contact {
+  font-size: 3em;
+  color: #AEBCC2;
   font-family: 'Georgia';
   font-weight: bold;
 }
@@ -15,7 +22,7 @@
   background-color: #51BAB3;
   color: white;
   margin: 40px;
-  padding: 20px;
+  padding: 40px;
   text-align: center;
 }
 
@@ -24,23 +31,40 @@
 }
 
 #color1 {
-  background-color: #A23E78
+  background-color: #A23E78;
 }
 
+#color1: hover {
+  background-color: #a05982;
+}
 #color2 {
-  background-color: #51BAB3
+  background-color: #51BAB3;
+}
+#color2: hover {
+  background-color: #9fcecb;
 }
 
 #color3 {
-  background-color: #1D2227
+  background-color: #1D2227;
+}
+
+#color3: hover {
+  background-color: #505a63;
 }
 
 #color4 {
-  background-color: #AEBCC2
+  background-color: #AEBCC2;
 }
 
+#color4: hover{
+  background-color: #404447;
+
+}
 #color5 {
-  background-color: #5A7475
+  background-color: #5A7475;
+}
+#color5 hover: {
+  background-color: #aec1c1;
 }
 
 #pickacolor {
